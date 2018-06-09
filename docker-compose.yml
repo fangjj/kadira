@@ -1,0 +1,24 @@
+version: '2'
+
+services:
+  kadira-engine:
+    image: vladgolubev/kadira-engine
+    ports:
+      - "11011:11011"
+    environment:
+      - PORT=11011
+      - MONGO_URL=$KADIRA_MONGO_URL
+      - MONGO_SHARD_URL_one=$KADIRA_MONGO_URL
+
+  kadira-rma:
+    image: vladgolubev/kadira-rma
+    environment:
+      - MONGO_URL=$KADIRA_MONGO_URL
+
+  kadira-ui:
+    image: vladgolubev/kadira-ui
+    ports:
+      - "4000:4000"
+    environment:
+      - MONGO_URL=$KADIRA_MONGO_URL
+      - MONGO_SHARD_URL_one=$KADIRA_MONGO_URL
