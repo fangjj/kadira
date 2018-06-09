@@ -32,9 +32,7 @@
           <pre><code>Kadira.connect('{{state$appId}}', '{{state$secret}}', {endpoint: 'https://meteor.kadira.cn'});</code></pre></div>
         <div role="tabpanel" class="tab-pane" id="via-meteor-settings">
           <p>add following into your `settings.json` file</p>
-          <pre><code>"kadira": { <br/>  "appId": "{{state$appId}}", <br/>  "appSecret": "{{state$secret}}", <br/> "options": { <br/> 
-            "endpoint":"https://meteor.kadira.cn" <br/>
-        }<br/> }</code></pre>
+          <pre><code>"kadira": { <br/>  "appId": "{{state$appId}}", <br/>  "appSecret": "{{state$secret}}", <br/>  "options": { <br/>    "endpoint": "https://meteor.kadira.cn" <br/>  } <br/>}</code></pre>
         </div>
         <div role="tabpanel" class="tab-pane" id="via-env">
           <p>export following environmental variable before running your app.</p>
