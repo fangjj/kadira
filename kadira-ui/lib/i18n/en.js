@@ -62,7 +62,7 @@ strings.app = {
   "configure_your_app": "Configure Your App",
   "config_install_pkg": "Install our Smart Package",
   "config_connect_code": "Connect to Kadira using one of the following methods.",
-  "config_learn_more": "Your data will be available within one minute. For more info, please refer the <a href=\"https://github.com/fangjj/kadira-test\" class='link'>Getting Started Demo Guide</a>.",
+  "config_learn_more": "Your data will be available within one minute. For more info, please refer the <a target='_blank' href=\"https://github.com/fangjj/kadira-test\" class='link'>Getting Started Demo Guide</a>.",
   "config_configurations": "Raw AppId and appSecret",
   "config_other_way": "If you need to configure your app in some other way",
   "app_id": "App ID",
