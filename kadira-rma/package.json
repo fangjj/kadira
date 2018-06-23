@@ -19,6 +19,6 @@
   },
   "dependencies": {
     "npm-run-all": "^3.1.2",
-    "pick-mongo-primary-one": "^0.5.1"
+    "pick-mongo-primary-one": "^0.5.2"
   }
 }
